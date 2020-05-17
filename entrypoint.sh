@@ -3,8 +3,8 @@ set -e
 
 if [ -n "$PXY" ]
 then
-    export proxy_http="${PXY}"
-    export proxy_https="${PXY}"
+    export http_proxy="${PXY}"
+    export https_proxy="${PXY}"
 fi
 
 export
